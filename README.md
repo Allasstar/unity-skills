@@ -84,3 +84,7 @@ The CLI auto-detects installed agents and prompts for targets. See [skills.sh](h
 
 | Skill | Description |
 |---|---|
+| [unity-estimate](skills/unity-estimate/SKILL.md) | Turns design docs, GDDs, specs or plans into an `.xlsx` estimate: per-task min/max hours, Developer vs AI ownership, totals, and working days per Claude tier (Pro, Max 100, Max 200). |
+| [unity-narrow-reads](skills/unity-narrow-reads/SKILL.md) | Reads only the lines needed from C# sources, scene/prefab YAML, docs, CSVs and logs instead of dumping whole files into context. |
+| [unity-plans](skills/unity-plans/SKILL.md) | Plans multi-step or multi-session work as a resumable file under `plans/`: progress table, phases with checkboxes, touched assets, checks, playtest protocols and a handoff. |
+| [unity-specs](skills/unity-specs/SKILL.md) | Keeps design specs under `specs/`, one file per feature, mechanic, screen or system, with numbered requirement ids, code map, verification and open questions. |
